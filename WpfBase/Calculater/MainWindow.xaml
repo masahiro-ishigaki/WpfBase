@@ -1,0 +1,35 @@
+﻿<Window x:Class="Calculater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculater"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,10,-5,0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Text Blak" HorizontalAlignment="Left" Margin="32,40,0,0" VerticalAlignment="Top" Width="388" Height="41"/>
+        <Button x:Name="button_Copy1" Tag="2" Content="2" HorizontalAlignment="Left" Margin="155,242,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy4" Tag="5" Content="5" HorizontalAlignment="Left" Margin="155,180,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy" Tag="1" Content="1" HorizontalAlignment="Left" Margin="61,242,0,0" VerticalAlignment="Top" Width="67" Height="42"/>
+        <Button x:Name="button_Copy2" Tag="8" Content="8" HorizontalAlignment="Left" Margin="155,120,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy3" Tag="6" Content="6" HorizontalAlignment="Left" Margin="261,180,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy5" Tag="7" Content="7" HorizontalAlignment="Left" Margin="61,120,0,0" VerticalAlignment="Top" Width="67" Height="42"/>
+        <Button x:Name="button_Copy7" Tag="4" Content="4" HorizontalAlignment="Left" Margin="61,180,0,94" VerticalAlignment="Top" Width="67" Height="42"/>
+        <Button x:Name="button_Copy8" Tag="3" Content="3" HorizontalAlignment="Left" Margin="261,242,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy9" Tag="9" Content="9" HorizontalAlignment="Left" Margin="261,120,0,0" VerticalAlignment="Top" Width="68" Height="42"/>
+        <Button x:Name="button_Copy10" Content="Text Blak" Margin="444,40,40,231"/>
+        <Button x:Name="button_Copy11" Content="-" HorizontalAlignment="Left" Margin="444,120,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+        <Button x:Name="button_Copy12" Content="+" HorizontalAlignment="Left" Margin="353,120,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+        <Button x:Name="button_Copy13" Content="×" HorizontalAlignment="Left" Margin="353,180,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+        <Button x:Name="button_Copy14" Tag="0" Content="0" HorizontalAlignment="Left" Margin="353,242,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+        <Button x:Name="button_Copy15" Content="÷" HorizontalAlignment="Left" Margin="444,180,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+        <Button x:Name="button_Copy16" Content="＝" HorizontalAlignment="Left" Margin="444,242,0,0" VerticalAlignment="Top" Width="66" Height="42"/>
+
+    </Grid>
+</Window>
