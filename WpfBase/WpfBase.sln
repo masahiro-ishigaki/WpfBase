@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBase", "WpfBase\WpfBase.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfSampleApplication", "WpfSampleApplication\WpfSampleApplication.csproj", "{D5A7BA61-E49E-4CBC-BD78-6816DC10C1DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculater", "Calculater\Calculater.csproj", "{C15ECB17-504E-47D5-8179-BC2F022B9F7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculaterApplication", "Calculater\CalculaterApplication.csproj", "{C15ECB17-504E-47D5-8179-BC2F022B9F7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
